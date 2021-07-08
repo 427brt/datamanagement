@@ -1,8 +1,13 @@
 import java.util.Random;
+import java.util.Scanner;
 
 class Dice{
   public static void main(String args[]){
     Random rand = new Random();
+    System.out.println("What is your name?");
+    Scanner sc1 = new Scanner(System.in);
+    String name = sc1.nextLine();
+    System.out.println("Hello, " + name);
     int num = rand.nextInt(5) + 1;
     int num2 = rand.nextInt(5) + 1;
     System.out.println("Rolling the dice...");
