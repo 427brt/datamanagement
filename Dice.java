@@ -1,7 +1,9 @@
 import java.util.Random;
+import java.util.Scanner;
 
 class Dice{
   public static void main(String args[]){
+    
     Random rand = new Random();
     System.out.println("What is your name?");
     Scanner sc1 = new Scanner(System.in);
