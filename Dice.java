@@ -16,9 +16,9 @@ class Dice{
     System.out.println("Dice 2: " + num2);
     System.out.println("Total value:" + (num + num2));
     if((num + num2)>7){
-      System.out.println("You won");
+      System.out.println(name + " won");
     }else{
-      System.out.println("You lost");
+      System.out.println(name + " lost");
     }
   }
 }
